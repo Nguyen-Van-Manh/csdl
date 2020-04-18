@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+}
+#reset {
+    padding-top: 20px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    padding-bottom: 70px;
+}
+
+#olpassword, #newpassword, #repassword, #apply {
+    margin-top: 50px;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+#apply {
+    margin-left: 50px;
+}
+#apply button {
+    font-weight: bold;
+    transition: all .3s;
+}
+#apply button:hover {
+    transition: all .3s;
+    border-radius: 30px;
+}
+#apply button:nth-last-child(1) {
+    margin-left: 30px;
+}
+.input-group i {
+    color: #6dd3ce;
+    font-size: 20px;
+}
+#reset b {
+    margin-left: 450px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+.error {
+    color: red;
+    position:absolute;
+    top: 50px;
+    left: 20px;
+    font-style: italic;
+}
