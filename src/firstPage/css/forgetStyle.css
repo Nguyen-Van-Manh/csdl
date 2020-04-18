@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#setpassword {
+    width: 430px;
+    border: 1px solid #c8cbcf;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 12px 10px 15px #818182;
+    z-index: 1;
+    display: none;
+    top: 15%;
+}
+#resetForm > div:first-child{
+    height: 40px;
+    background-color: #1ba0e2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    padding-top: 5px;
+    font-size: 17px;
+}
+#username > input , #phonenumber > input, #newpassword > input, #re-password > input, #submit > input{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#username i {
+    color: #087e8b;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+}
+#phonenumber i {
+    color: #087e8b;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 145px;
+}
+#newpassword i {
+    color: #087e8b;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 215px;
+}
+#re-password i {
+    color: #087e8b;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 285px;
+}
+#submit > input{
+    background-color: #157fd3;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .3s;
+}
+#submit {
+    padding-bottom: 30px;
+}
+#submit >input:hover {
+    background-color: #1b1e21;
+    transition: all .3s;
+}
+#login button, #signup button {
+    font-weight: bold;
+    color: white;
+    transition: all .3s;
+}
+#login  {
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+    border-radius: 7px;
+}
+#signup {
+    position: absolute;
+    left: 1310px;
+    top: 10px;
+    border-radius: 7px;
+}
+.error {
+    color: #ff5835;
+    position: absolute;
+    left: 330px;
+    font-size: 13px;
+}
+#username .error {
+    top: 75px;
+}
+#phonenumber .error {
+    top: 140px;
+}
+#newpassword .error {
+    top: 200px;
+}
+#re-password .error{
+    top: 275px;
+}
