@@ -1,0 +1,66 @@
+@charset "UTF-8";
+#login{
+    width: 400px;
+    border: 1px solid #c8cbcf;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 12px 10px 15px #818182;
+    z-index: 1;
+    display: none;
+    top: 15%;
+}
+#loginForm > div:first-child{
+    height: 40px;
+    background-color: #1ba0e2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    padding-top: 5px;
+    font-size: 17px;
+}
+#username > input , #password > input, #submit > input{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#username i {
+    color: #087e8b;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+}
+#password i {
+    color: #087e8b;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 145px;
+}
+#submit>input:hover {
+    background-color: #f96d01;
+    transition: all 0.3s;
+}
+#submit>input{
+    font-weight: bold;
+    color: white;
+    background-color: #3b5998;
+    transition: all 0.4s;
+}
+#create button{
+    font-weight: bold !important;
+    width: 235px;
+}
+#create {
+    margin-left: 72px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+#login > a {
+    margin-left: 200px;
+    color: red;
+}
